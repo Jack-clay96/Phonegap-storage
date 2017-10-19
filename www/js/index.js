@@ -26,7 +26,9 @@ function updateDisplay() {
     function localStorage()
     {
         window.localStorage.setItem( phone, "nexus" );
-        console.log(var getPhone = window.localStorage.getItem(phone));
+        var getPhone = window.localStorage.getItem(phone);
         alert("localstorge");
+        
+        console.log("Phone: " + getPhone);
         
     }
