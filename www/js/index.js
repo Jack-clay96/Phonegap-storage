@@ -2,9 +2,9 @@ var value = "nexus";
 var key = "phone";
 var value1 = "wallet";
 var key1 = "black";
-var glasses = "green";
-var drink = "coke";
-var food = "burger";
+//var glasses = "green";
+//var drink = "coke";
+//var food = "burger";
 
 //JSON:
 var choc= {
@@ -49,9 +49,9 @@ function updateDisplay() {
          window.localStorage.setItem( key1, value1 );
         var getPhone = window.localStorage.getItem(key1);
         $("#key1").text("Wallet: ");
-        
+		
         var items = window.localStorage.length;
-        console.log("No. item stored: " + items)
+        console.log("No. item stored: " + items);
         
     }
 
