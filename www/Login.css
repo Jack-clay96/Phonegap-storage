@@ -8,7 +8,13 @@ body {
 	    background-color: white;
 }
 
-a.register{
-    padding-left: 5%;
-    padding-right: 5%;
+.ui-btn{
+    border: 0 !important;
+    background-color: transparent!important;
+    width: 150px !important;
+    /*padding-left: 40% !important;*/
+}
+
+li a{
+    float: left;
 }
