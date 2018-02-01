@@ -1,0 +1,14 @@
+/* Login_CSS */
+
+body {
+        color: black;
+        line-height: 1.5;
+        text-align: center;
+        font-family: verdana, Arial;
+	    background-color: white;
+}
+
+a.register{
+    padding-left: 5%;
+    padding-right: 5%;
+}
