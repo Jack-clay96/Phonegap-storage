@@ -17,7 +17,7 @@ ID is seen by phone - same name might cause issue-->
         Jack Clay
     </author>
 
-    <preference name="motorbike-Event" value="cli-7.0.1" />
+    <preference name="phonegap-version" value="cli-7.0.1" />
 	
     <preference name="permissions"                value="none"/>   
 	
